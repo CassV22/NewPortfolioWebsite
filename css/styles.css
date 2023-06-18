@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Atma', cursive;
+    background-image: url("/images/background.png");
+}
+
+
+nav {
+    display: flex;   
+    justify-content: space-between; 
+    margin-left: 40px;
+    margin-right: 65px;
+    align-items: center;    
+    padding-top: 20px;
+
+}
+
+.nav_containerL h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 5px;
+    -webkit-text-stroke: 3px black;
+    color: white;
+}
+
+.nav_containerR {
+    display: flex;
+    font-size: 20px;  
+    gap: 30px;     
+}
+
+.nav_element {
+    font-weight: 600;
+    margin-top: 5px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+#profileImg {
+    height: 460px;
+    width: 400px;
+}
+
+.main_container {
+    border: 5px solid;
+    border-radius: 10px;
+    display: flex;
+    width: 85%;
+    height: 75vh;
+    margin: auto;  
+    background-color: #A6C4FF;  
+}
+
+.img_container {
+    margin: 0;
+}
+
+#profileImg {
+    width: auto;
+    height: 70%;
+    padding-left: 60px;
+    padding-top: 30px;
+} 
+
+.descriptions {
+    margin-left: 80px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.welcome_container {
+    text-align: center;
+    padding-left: 5px;
+}
+
+#welcome_header {
+    font-size: 55px;
+    line-height: 97px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+#welcome_subtitle {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 0;
+    width: 75%;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills_header {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.skillsL {
+    font-size: 22px;
+}
+
+.skillsR {
+    font-size: 22px;
+}
