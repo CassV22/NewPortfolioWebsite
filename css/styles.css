@@ -231,3 +231,269 @@ nav {
     font-weight: 600;
     color: #fff;
 }
+
+/**************************End of My Portfolio*********************************************/
+
+/**************************Start of UX Portfolio*********************************************/
+.UXcard1 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 22%;
+    background-color: #6663E5;     
+    margin-left: 100px;
+}
+
+.UXcard1_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project1 {
+    position: absolute;
+    bottom: 148px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.UXcard2 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 22%;
+    background-color: #6663E5;        
+}
+
+.UXcard2_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project2 {
+    position: absolute;
+    bottom: 165px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.UXcard3 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 22%;
+    background-color: #6663E5;     
+   
+}
+
+.UXcard3_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project3 {
+    position: absolute;
+    bottom: 148px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+/**************************End of UX Portfolio*********************************************/
+
+/**************************Start of Web Dev Portfolio*********************************************/
+.card_containerW {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px; 
+    
+}
+
+.webDevcard1 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 278px;
+    background-color: #2A28A1;     
+    margin-left: 100px;
+}
+
+.webDevcard1_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project1a {
+    position: absolute;
+    bottom: 148px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.webDevcard2 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 278px;
+    background-color: #2A28A1;        
+}
+
+.webDevcard2_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project2a {
+    position: absolute;
+    bottom: 165px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.webDevcard3 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 278px;
+    background-color: #2A28A1;     
+   
+}
+
+.webDevcard3_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project3a {
+    position: absolute;
+    bottom: 148px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.webDevcard4 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 278px;
+    background-color: #2A28A1;     
+    margin-left: 100px; 
+}
+
+.webDevcard4_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project4a {
+    /* position: absolute;
+    bottom: 100px; */
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.webDevcard5 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 45vh;
+    width: 278px;
+    background-color: #2A28A1;     
+}
+
+.webDevcard5_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.project5a {
+    /* position: absolute;
+    bottom: 100px; */
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
