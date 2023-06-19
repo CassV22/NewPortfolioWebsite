@@ -364,8 +364,8 @@ nav {
 
 .project1a {
     position: absolute;
-    bottom: 148px;
-    margin-left: 35px;
+    bottom: 163px;
+    margin-left: 75px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -395,8 +395,8 @@ nav {
 
 .project2a {
     position: absolute;
-    bottom: 165px;
-    margin-left: 20px;
+    bottom: 163px;
+    margin-left: 58px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -427,8 +427,8 @@ nav {
 
 .project3a {
     position: absolute;
-    bottom: 148px;
-    margin-left: 40px;
+    bottom: 163px;
+    margin-left: 80px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -442,6 +442,7 @@ nav {
     width: 278px;
     background-color: #2A28A1;     
     margin-left: 100px; 
+    margin-bottom: 100px;
 }
 
 .webDevcard4_container {
@@ -458,8 +459,8 @@ nav {
 }
 
 .project4a {
-    /* position: absolute;
-    bottom: 100px; */
+    position: absolute;
+    bottom: -203px;
     margin-left: 40px;
     font-size: 20px;
     font-weight: 500;
@@ -489,9 +490,9 @@ nav {
 }
 
 .project5a {
-    /* position: absolute;
-    bottom: 100px; */
-    margin-left: 40px;
+    position: absolute;
+    bottom: -202px;
+    margin-left: 86px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
