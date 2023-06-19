@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: 'Atma', cursive;
-    background-image: url("/images/background.png");
+    background-image: url("/images/background.png"); 
+    height: 100vh;    
 }
 
 
@@ -12,6 +13,7 @@ nav {
     margin-right: 65px;
     align-items: center;    
     padding-top: 20px;
+    margin-bottom: -15px;  
 
 }
 
@@ -49,6 +51,7 @@ nav {
     height: 75vh;
     margin: auto;  
     background-color: #A6C4FF;  
+    box-shadow: 0 0 50px #B080FF;
 }
 
 .img_container {
@@ -63,7 +66,7 @@ nav {
 } 
 
 .descriptions {
-    margin-left: 80px;
+    margin-left: 85px;
     font-size: 35px;
     font-weight: 600;
     margin-top: 0;
@@ -75,11 +78,14 @@ nav {
 }
 
 #welcome_header {
-    font-size: 55px;
+    font-size: 58px;
     line-height: 97px;
     margin-top: 55px;
     margin-bottom: 10px;
     font-weight: bolder;
+    -webkit-text-stroke: 1px #CE5AE1;
+    color: black;
+    
 }
 
 #welcome_subtitle {
@@ -94,18 +100,26 @@ nav {
 .skills_container {
     display: flex;
     justify-content: center;
+    gap: 50px;
+    padding-left: 50px;
 }
 
 .skills_header {
     text-align: center;
-    margin-bottom: 0;
-    font-size: 25px;
+    margin-bottom: -20px;
+    font-size: 30px;   
 }
 
 .skillsL {
     font-size: 22px;
+    font-weight: 500;   
 }
 
 .skillsR {
     font-size: 22px;
+    font-weight: 500; 
 }
+
+/**************************End of Homepage*********************************************/
+
+/**************************Start of My Portfolio*********************************************/
