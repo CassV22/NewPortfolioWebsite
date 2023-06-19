@@ -5,6 +5,9 @@ body {
     height: 100vh;    
 }
 
+a {
+    text-decoration: none;
+}
 
 nav {
     display: flex;   
@@ -123,3 +126,108 @@ nav {
 /**************************End of Homepage*********************************************/
 
 /**************************Start of My Portfolio*********************************************/
+#portfolio_header {
+    text-align: center;
+    font-size: 33px;
+    margin-top: 0;
+}
+
+.card_container {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 100px;
+}
+
+.card1 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 60vh;
+    width: 22%;
+    background-color: #6663E5;     
+    margin-left: 100px;
+}
+
+.card1_container {
+    height: 50%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/ux_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+.ux_text {
+    position: absolute;
+    bottom: 55px;
+    margin-left: 85px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card2 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 60vh;
+    width: 22%;
+    background-color: #2A28A1;        
+}
+
+.card2_container {
+    height: 50%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/webDev_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+
+.webDev_text {
+    position: absolute;  
+    bottom: 55px;  
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card3 {
+    border: 5px solid;
+    border-radius: 10px;
+    height: 60vh;
+    width: 22%;
+    background-color: #AF43C1;         
+    
+}
+
+.card3_container {
+    height: 50%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/other_background.png");  
+    z-index: 1;     
+    position: absolute;
+}
+
+
+.other_text {
+    position: absolute;  
+    bottom: 55px;  
+    margin-left: 105px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
