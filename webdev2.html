@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!--Add link to font sheet-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <title>CV's Web Portfolio - WebDev Portfolio</title>
+
+        <body>
+            <nav id="navbar">
+                <div class="nav_containerL">
+                    <h1>Cassandra Valcourt</h1>
+                </div>
+                
+                <div class="nav_containerR">
+                    <a href="index.html"><h2 class="nav_element">Home</h2></a>
+                    <a href="portfolio.html"><h2 class="nav_element">My Portfolio</h2></a>
+                    <h2 class="nav_element">Resume</h2>
+                    <h2 class="nav_element">About</h2>
+                </div>
+            </nav>
+           
+            <h2 id="portfolio_header">Web Development Portfolio</h2>
+
+            <div class="card_containerW">
+        
+                <div class="webDevcard1 grid_item">              
+                    <div class="webDevcard1_container"></div> <!--Rathcer than anchor tags, format to create modal that opens on click-->
+                    <p class="project1a">Etch-A-Sketch</p>            
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal_container1">
+                    <!-- Modal content -->
+                    <div class="modal-content">                    
+                        <h1 class="modalTitle1">Etch-A-Sketch</h1>
+                        <div class="modal_inner1">
+                            <figure id="etchAsketch">
+                                <img class="webDev_modalImg1" src="images/etch-a-sketch.png" alt="Preview screen of Etch-A-Sketch project" />
+                            </figure>                        
+                            <p class="webdevModalText1">A simple sketchpad or Etch-A-Sketch website made using HTML, CSS, and Javascript. 
+                                To use, click on a grid size to choose the size of your grid or to reset your canvas.
+                                Then choose a color from the color pallet or click the black button for black or click
+                                the multi-color button to get a series of random colors. To start drawing, once a color is chosen
+                                click on a square and drag your mouse. Click again on your final square to stop drawing.
+                            </p>
+                        </div>                       
+                        <!--Modal Buttons-->
+                        <div class="modal_buttons">
+                            <button id="closeModal">Close</button>
+                            <button id="launchDemo">Launch Demo</button>
+                        </div>                        
+                    </div>                
+                </div>
+        
+                <div class="webDevcard2 grid_item">               
+                    <div class="webDevcard2_container"></div>
+                    <p class="project2a">Rock Paper Scissors</p>    
+                </div>
+                 <!-- The Modal -->
+                 <div id="myModal" class="modal_container2">
+                    <!-- Modal content -->
+                    <div class="modal-content">                    
+                        <h1 class="modalTitle1">Rock Paper Scissors</h1>
+                        <div class="modal_inner1">
+                            <figure id="rps">
+                                <img class="webDev_modalImg1" src="images/rps.png" alt="Preview screen of Rock Paper Scissors project" />
+                            </figure>                        
+                            <p class="webdevModalText1">A classic game of rock paper scissors created using HTML/CSS and Javascript.
+                                Click on the rock, paper, or scissor button to choose your move, then wait for the computer to make it's move.
+                                The first one to 5 points wins the game.
+                            </p>
+                        </div>                       
+                        <!--Modal Buttons-->
+                        <div class="modal_buttons">
+                            <button id="closeModal">Close</button>
+                            <button id="launchDemo">Launch Demo</button>
+                        </div>                        
+                    </div>                
+                </div>
+        
+                <div class="webDevcard3 grid_item">               
+                    <div class="webDevcard3_container"></div>
+                    <p class="project3a">JS Drumkit</p>    
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal_container3">
+                    <!-- Modal content -->
+                    <div class="modal-content">                    
+                        <h1 class="modalTitle1">JS Drumkit</h1>
+                        <div class="modal_inner1">
+                            <figure id="jsDrumkit">
+                                <img class="webDev_modalImg1" src="images/JSdrumkit.png" alt="Preview screen of JS Drumkit project" />
+                            </figure>                        
+                            <p class="webdevModalText1">Use your keyboard to rock out with this Javascript drum kit. Each key on the
+                                screen is connected to a part of a drum kit; press the key to hear the corresponding sound. Press the
+                                keys quickly to connect each sound as if you're playing a real drum kit.
+                            </p>
+                        </div>                       
+                        <!--Modal Buttons-->
+                        <div class="modal_buttons">
+                            <button id="closeModal">Close</button>
+                            <button id="launchDemo">Launch Demo</button>
+                        </div>                        
+                    </div>                
+                </div>
+
+                <div class="webDevcard4 grid_item">               
+                    <div class="webDevcard4_container"></div>
+                    <p class="project4a">Nucamp Portfolio Project</p>    
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal_container4">
+                    <!-- Modal content -->
+                    <div class="modal-content">                    
+                        <h1 class="modalTitle1">Nucamp Portfolio Project</h1>
+                        <div class="modal_inner1">
+                            <figure id="jsDrumkit">
+                                <img class="webDev_modalImg1" src="images/comingSoon.png" alt="Coming soon sign" />
+                            </figure>                        
+                            <p class="webdevModalText1">This project is a work in progress; it is currently in the design stage.
+                                The project is inteded to be an educational website for students that allow them to explore and 
+                                learn about STEM concepts in fun ways throughout their summer break. Users will be able to log into
+                                their account, play STEM games, find and purchase STEM-related books from educational reading lists,
+                                learn about different STEM professions, and much more.
+                            </p>
+                        </div>                       
+                        <!--Modal Buttons-->
+                        <div class="modal_buttons">
+                            <button id="closeModal">Close</button>
+                            <button id="launchDemo">Launch Demo</button>
+                        </div>                        
+                    </div>                
+                </div>
+
+                <div class="webDevcard5 grid_item">               
+                    <div class="webDevcard5_container"></div>
+                    <p class="project5a">Odin Recipes</p>    
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal_container5">
+                    <!-- Modal content -->
+                    <div class="modal-content">                    
+                        <h1 class="modalTitle1">Odin Recipes - The Chocolate Lover's Cookbook</h1>
+                        <div class="modal_inner1">
+                            <figure id="odinRecipes">
+                                <img class="webDev_modalImg1" src="images/odinRecipes.png" alt="Coming soon sign" />
+                            </figure>                        
+                            <p class="webdevModalText1">The first project that I worked on while completing the Odin
+                                Project. A simple, static website that features several recipes that chocolate lovers
+                                can enjoy. To view the recipes, click on the chocolate lover image at the center of the website's
+                                homepage to get started.
+                            </p>
+                        </div>                       
+                        <!--Modal Buttons-->
+                        <div class="modal_buttons">
+                            <button id="closeModal">Close</button>
+                            <button id="launchDemo">Launch Demo</button>
+                        </div>                        
+                    </div>                
+                </div>
+
+               
+        
+            </div>
+        
+        </body>
+
+</html>

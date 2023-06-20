@@ -252,7 +252,9 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/ux_background.png");  
+    background-image: url("/images/greenerTogether.png");  
+    background-repeat: no-repeat;  
+    background-size: cover;
     z-index: 1;     
     position: absolute;
 }
@@ -260,7 +262,7 @@ nav {
 .project1 {
     position: absolute;
     bottom: 148px;
-    margin-left: 35px;
+    margin-left: 40px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -283,7 +285,9 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/ux_background.png");  
+    background-image: url("/images/caribbeanGrille.png"); 
+    background-repeat: no-repeat;  
+    background-size: cover; 
     z-index: 1;     
     position: absolute;
 }
@@ -315,7 +319,9 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/ux_background.png");  
+    background-image: url("/images/library.png");  
+    background-repeat: no-repeat;  
+    background-size: cover;
     z-index: 1;     
     position: absolute;
 }
@@ -358,7 +364,7 @@ nav {
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
     background-image: url("/images/ux_background.png");  
-    z-index: 1;     
+    z-index: 0;     
     position: absolute;
 }
 
@@ -389,7 +395,7 @@ nav {
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
     background-image: url("/images/ux_background.png");  
-    z-index: 1;     
+    z-index: 0;     
     position: absolute;
 }
 
@@ -421,14 +427,14 @@ nav {
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
     background-image: url("/images/ux_background.png");  
-    z-index: 1;     
+    z-index: 0;     
     position: absolute;
 }
 
 .project3a {
     position: absolute;
     bottom: 163px;
-    margin-left: 80px;
+    margin-left: 90px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -454,7 +460,7 @@ nav {
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
     background-image: url("/images/ux_background.png");  
-    z-index: 1;     
+    z-index: 0;     
     position: absolute;
 }
 
@@ -485,7 +491,7 @@ nav {
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
     background-image: url("/images/ux_background.png");  
-    z-index: 1;     
+    z-index: 0;     
     position: absolute;
 }
 
@@ -497,4 +503,150 @@ nav {
     font-weight: 500;
     color: #fff;
     text-align: center;
+}
+
+
+/**************************Modal Stylings*********************************************/
+.modal_container1 {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */      
+}
+
+
+.webDev_modalImg1 {    
+    border: 2px solid #888;
+    border-radius: 10px;
+    width: 325px;
+    height: 250px;    
+  }
+
+#etchAsketch {
+    padding-top: 35px;   
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 75%;
+    z-index: 1;
+    margin-top: 50px;
+  }
+
+  .modalTitle1 {
+    text-align: center;
+  }
+
+  .modal_inner1 {
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .webdevModalText1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .modal_buttons {
+    display: flex;
+    width: 100%;    
+    gap: 70px;  
+    justify-content: center;     
+  }
+  
+  #closeModal, #launchDemo {
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #888;
+    width: 145px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #closeModal {
+    background-color: #040364;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  #launchDemo {
+    background-color: #CE5AE1;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  /**************Modal 2********************/
+  .modal_container2 {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */      
+}
+
+
+#etchAsketch, #jsDrumkit, #odinRecipes {
+    padding-top: 35px;   
+}
+
+ /**************Modal 3********************/
+ .modal_container3 {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */      
+}
+
+/**************Modal 4********************/
+.modal_container4 {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */      
+}
+
+/**************Modal 5********************/
+.modal_container5 {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */      
 }
