@@ -579,7 +579,7 @@ nav {
     justify-content: center;     
   }
   
-  #closeModal, #launchDemo {
+  #closeModal1, #closeModal2, #closeModal3, #closeModal4, #closeModal5, #launchDemo {
     font-size: 16px;
     border-radius: 6px;
     border: 1px solid #888;
@@ -588,7 +588,7 @@ nav {
     padding-bottom: 10px;
   }
 
-  #closeModal {
+  #closeModal1, #closeModal2, #closeModal3, #closeModal4, #closeModal5 {
     background-color: #040364;
     color: #fff;
     font-weight: 600;
@@ -659,4 +659,56 @@ nav {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */      
+}
+
+/*******************Other Projects Page*****************************/
+.otherCard1_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/SD_project.png");  
+    background-repeat: no-repeat;  
+    background-size: cover;
+    z-index: 1;     
+    position: absolute;
+}
+
+.otherCard2_container {
+    height: 35%;
+    width: 22%;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: none;
+    border-bottom: 5px solid;   
+    border-radius: 4px 4px 10px 10px;    
+    background-image: url("/images/EJReport.png"); 
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    z-index: 1;     
+    position: absolute;
+}
+
+
+.otherProject1 {
+    position: absolute;
+    bottom: 148px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.otherProject2 {
+    position: absolute;
+    bottom: 148px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
 }
