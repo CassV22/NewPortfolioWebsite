@@ -7,6 +7,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
+}
+
+#navbar a:hover {
+    text-decoration: underline;    
 }
 
 nav {
@@ -126,6 +131,7 @@ nav {
 /**************************End of Homepage*********************************************/
 
 /**************************Start of My Portfolio*********************************************/
+
 #portfolio_header {
     text-align: center;
     font-size: 33px;
@@ -136,6 +142,13 @@ nav {
     display: flex;
     /* justify-content: space-around; */
     gap: 100px;
+}
+
+.portfolioCards:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-color: #fff;
 }
 
 .card1 {
@@ -344,6 +357,14 @@ nav {
     grid-template-columns: auto auto auto;
     row-gap: 50px; 
     
+}
+
+.portfolioCardsW:hover {
+    cursor: pointer;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-color: #fff;
 }
 
 .webDevcard1 {
