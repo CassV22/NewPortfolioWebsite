@@ -68,18 +68,19 @@ function close5(){
 }
 
 // function close(){
-//     if(getModal1.style.display == "block") {
+//     if(getModal1.style.display === "block") {
 //         getModal1.style.display = "none";
-//     } else if(getModal2.style.display == "block") {
+//     } else if(getModal2.style.display === "block") {
 //         getModal2.style.display = "none";
-//     } else if(getModal3.style.display == "block") {
+//     } else if(getModal3.style.display === "block") {
 //         getModal3.style.display = "none";
-//     } else if(getModal4.style.display == "block") {
+//     } else if(getModal4.style.display === "block") {
 //         getModal4.style.display = "none";
-//     } else if(getModal5.style.display == "block") {
+//     } else if(getModal5.style.display === "block") {
 //         getModal5.style.display = "none";
 //     }
 // }
 
 
 //later think about how I can rewrtie this so I don't have to write out the same fuctions for each modal
+
