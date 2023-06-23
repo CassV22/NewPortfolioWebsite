@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Atma', cursive;
-    background-image: url("/images/background.png"); 
+    background-image: url("../images/background.png"); 
     height: 100vh;    
 }
 
@@ -168,7 +168,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/ux_background.png");  
+    background-image: url("../images/ux_background.png");  
     z-index: 1;     
     position: absolute;
 }
@@ -198,7 +198,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/webDev_background.png");  
+    background-image: url("../images/webDev_background.png");  
     z-index: 1;     
     position: absolute;
 }
@@ -230,7 +230,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/other_background.png");  
+    background-image: url("../images/other_background.png");  
     z-index: 1;     
     position: absolute;
 }
@@ -265,7 +265,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/greenerTogether.png");  
+    background-image: url("../images/greenerTogether.png");  
     background-repeat: no-repeat;  
     background-size: cover;
     z-index: 1;     
@@ -298,7 +298,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/caribbeanGrille.png"); 
+    background-image: url("../images/caribbeanGrille.png"); 
     background-repeat: no-repeat;  
     background-size: cover; 
     z-index: 1;     
@@ -332,7 +332,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/library.png");  
+    background-image: url("../images/library.png");  
     background-repeat: no-repeat;  
     background-size: cover;
     z-index: 1;     
@@ -384,7 +384,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/etch-a-sketch2.png");  
+    background-image: url("../images/etch-a-sketch2.png");  
     background-repeat: no-repeat;    
     background-size: cover;    
     z-index: 0;     
@@ -417,7 +417,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/rps2.png");  
+    background-image: url("../images/rps2.png");  
     background-repeat: no-repeat;    
     background-size: cover; 
     z-index: 0;     
@@ -451,7 +451,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/JSdrumkit.png");  
+    background-image: url("../images/JSdrumkit.png");  
     background-repeat: no-repeat;    
     background-size: cover; 
     z-index: 0;     
@@ -486,7 +486,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/mystery.png");  
+    background-image: url("../images/mystery.png");  
     background-size: cover;
     z-index: 0;     
     position: absolute;
@@ -518,7 +518,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/chocolateLovers.png");  
+    background-image: url("../images/chocolateLovers.png");  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -707,7 +707,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/SD_project.png");  
+    background-image: url("../images/SD_project.png");  
     background-repeat: no-repeat;  
     background-size: cover;
     z-index: 1;     
@@ -722,7 +722,7 @@ nav {
     border-top: none;
     border-bottom: 5px solid;   
     border-radius: 4px 4px 10px 10px;    
-    background-image: url("/images/EJReport.png"); 
+    background-image: url("../images/EJReport.png"); 
     background-repeat: no-repeat;  
     background-size: cover; 
     z-index: 1;     
